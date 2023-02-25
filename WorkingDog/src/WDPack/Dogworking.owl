@@ -1,0 +1,3114 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://localhost/Dogworking#"
+     xml:base="http://localhost/Dogworking"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Dogworking="http://localhost/Dogworking#">
+    <owl:Ontology rdf:about="http://localhost/Dogworking"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/Dogworking#name -->
+
+    <owl:AnnotationProperty rdf:about="http://localhost/Dogworking#name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/Dogworking#hasActive -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasActive">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Active"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasAggressive -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasAggressive">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Aggressive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasClever -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasClever">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Clever"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasCoat_Length -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasCoat_Length">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Coat_Length"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasColor -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasColor">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Color"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasHearing_Skill -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasHearing_Skill">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Hearing_Skill"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasLoyalty -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasLoyalty">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasMobility -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasMobility">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Mobility"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasSensitive_Nose -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasSensitive_Nose">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Sensitive_Nose"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasSize -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasSize">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Size"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://localhost/Dogworking#hasStrength -->
+
+    <owl:ObjectProperty rdf:about="http://localhost/Dogworking#hasStrength">
+        <rdfs:domain rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdfs:range rdf:resource="http://localhost/Dogworking#Strength"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/Dogworking#Active -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Active">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Aggressive -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Aggressive">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Animal -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Animal"/>
+    
+
+
+    <!-- http://localhost/Dogworking#Appearance -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Appearance">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Asistance_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Asistance_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Assistance Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Bird_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Bird_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdfs:label>Bird Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Carriag_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Carriag_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Carriag Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Characteristic -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Characteristic">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Clever -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Clever">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Coat_Length -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Coat_Length">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Coat Length</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Color -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Color">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Color</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Detective_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Detective_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdfs:label>Detective Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#General_Pet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Draught_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Draught_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdfs:label>Draught Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#General_Pet -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#General_Pet">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Pet"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Guard_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Guard_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdfs:label>Guard Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Guide_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Guide_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdfs:label>Guide Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Hearing_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Hearing_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdfs:label>Hearing Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Hearing_Skill -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Hearing_Skill">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Herding_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Herding_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Herding Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Hound_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Hound_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Hound Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Medical_response_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Medical_response_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdfs:label>Medical Response Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Military_Working_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Military_Working_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Military Working Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Mobility -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Mobility">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Mobility_Assistance_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Mobility_Assistance_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdfs:label>Mobility Assistance Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Pet -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Pet">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Animal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Rescue_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Rescue_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Rescue Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Search_and_Rescue_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Search_and_Rescue_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdfs:label>Search And Rescue Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Sensitive_Nose -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Sensitive_Nose">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Size -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Size">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Sled_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Sled_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdfs:label>Sled Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Strength -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Strength">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Characteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Terriers_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Terriers_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdfs:label>Terriers Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Therapy_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Therapy_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <rdfs:label>Therapy Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Trackers_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Trackers_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdfs:label>Trackers Dog</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Working_Dog -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Working_Dog">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- http://localhost/Dogworking#Working_Dog_Type -->
+
+    <owl:Class rdf:about="http://localhost/Dogworking#Working_Dog_Type">
+        <rdfs:subClassOf rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://localhost/Dogworking#Airedale_Terrier -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Airedale_Terrier">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Airedale Terrier</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Akita -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Akita">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Akita</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Alaskan_Husky -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Alaskan_Husky">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Alaskan Husky</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Alaskan_Malamute -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Alaskan_Malamute">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Sable_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Alaskan Malamute</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#American_Eskimo -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#American_Eskimo">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Cream_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>American Eskimo</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#American_Staffordshire -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#American_Staffordshire">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>American Staffordshire</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#American_Staffordshire_Terrier -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#American_Staffordshire_Terrier">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>American Staffordshire Terrier</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Anatolian_Shepherd -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Anatolian_Shepherd">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Blue_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Giant_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Anatolian Shepherd</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Australian -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Australian">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Blue_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Dark_Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Solid_Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Solid_Sandy_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Tan_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Australian</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Australian_Cattle -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Australian_Cattle">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Blue_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Australian Cattle</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Australian_Shepherd -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Australian_Shepherd">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Australian Shepherd</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Basset_Hound -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Basset_Hound">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Basset Hound</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Beagle -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Beagle">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Tan_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Beagle</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Belgian_Malinois -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Belgian_Malinois">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Belgian Malinois</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bernese_Mountain -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bernese_Mountain">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Bernese Mountain</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#BiColor -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#BiColor">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>BiColor</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bichon_Frise -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bichon_Frise">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Bichon Frise</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Black_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Black_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Black Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bloodhound -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bloodhound">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Tan_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Bloodhound</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Blue_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Blue_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Blue Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Border_Collie -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Border_Collie">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Border Collie</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Boston -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Boston">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Boston</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bouvier_des_Flandres -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bouvier_des_Flandres">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Bouvier des Flandres</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Boxer -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Boxer">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Cream_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Boxer</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Brittany -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Brittany">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Brittany</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Brown_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Brown_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Brown Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bull -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bull">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Bull</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bulldog -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bulldog">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Fawn_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Bulldog</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Bullmastiff -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Bullmastiff">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Bullmastiff</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Cairn -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Cairn">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Cairn</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Canadian_Eskimo -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Canadian_Eskimo">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Blue_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Cream_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Spotted_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Yellow_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Canadian Eskimo</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Cocker_Spaniel -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Cocker_Spaniel">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Cocker Spaniel</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Coonhound -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Coonhound">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Coonhound</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Cream_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Cream_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Cream Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Dachshund -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Dachshund">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Dachshund</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Dark_Grey_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Dark_Grey_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Dark Grey Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Doberman_Pinscher -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Doberman_Pinscher">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Doberman Pinscher</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Dutch_Shepherd -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Dutch_Shepherd">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Dutch Shepherd</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#English_Pointer -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#English_Pointer">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>English Pointer</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#English_Springer_Spaniel -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#English_Springer_Spaniel">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>English Springer Spaniel</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Fawn_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Fawn_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Fawn Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Finnish_Spitz -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Finnish_Spitz">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Yellow_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Finnish Spitz</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#German_Shepherd -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#German_Shepherd">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>German Shepherd</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#German_Shorthaired_Pointer -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#German_Shorthaired_Pointer">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>German Shorthaired Pointer</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Giant_Schnauzer -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Giant_Schnauzer">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Giant Schnauzer</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Giant_Size -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Giant_Size">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Size"/>
+        <name>Giant Size</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Gold_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Gold_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Gold Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Golden_Retriever -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Golden_Retriever">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Golden Retriever</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Great_Dane -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Great_Dane">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Spotted_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Giant_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Great Dane</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Greater_Swiss_Mountain -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Greater_Swiss_Mountain">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Greater Swiss Mountain</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Greenland -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Greenland">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Greenland</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Grey_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Grey_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Grey Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Grizzle_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Grizzle_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Grizzle Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Active -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Active">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Active"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>High Active</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Attacking -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Attacking">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Aggressive"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>High Aggressive</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Clever -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Clever">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Clever"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>High Clever</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Hearing_Skill -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Hearing_Skill">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Skill"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>High Hearing Skill</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Modility -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Modility">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>High Mobility</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Sensitive_Nose -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Sensitive_Nose">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sensitive_Nose"/>
+        <name>High Sensitive Nose</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#High_Strength -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#High_Strength">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Strength"/>
+        <name>High Strength</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Icelandic_Sheepdog -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Icelandic_Sheepdog">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Icelandic Sheep</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Irish_Setter -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Irish_Setter">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Irish Setter</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Irish_Wolfhound -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Irish_Wolfhound">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Giant_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Irish Wolfhound</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Jack_Russell -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Jack_Russell">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Jack Russell</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Labrador_Retriever -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Labrador_Retriever">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Yellow_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Labrador Retriever</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Large_Size -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Large_Size">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Size"/>
+        <name>Large Size</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Long_Coat_Length -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Long_Coat_Length">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Coat_Length"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Long Coat Length</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Low_Aggressive -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Low_Aggressive">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Aggressive"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Low Aggressive</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Medium_Coat_Length -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Medium_Coat_Length">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Coat_Length"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Medium Coat Length</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Medium_Size -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Medium_Size">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Size"/>
+        <name>Medium Size</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Newfoundland -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Newfoundland">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Newfoundland</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Old_English_Sheepdog -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Old_English_Sheepdog">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Old English Sheepdog</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Pit_Bull_Terrier -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Pit_Bull_Terrier">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Pit Bull Terrier</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Poodle -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Poodle">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Poodle</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Red_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Red_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Red Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Rhodesian_Ridgeback -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Rhodesian_Ridgeback">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Rhodesian Ridgeback</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Rottweiler -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Rottweiler">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Military_Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Rottweiler</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Sable_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Sable_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Sable Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Saint_Bernard -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Saint_Bernard">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Search_and_Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Giant_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Saint Bernard</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Samoyed -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Samoyed">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Cream_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Samoyed</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Scottish -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Scottish">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Scottish</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Shetland_Sheepdog -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Shetland_Sheepdog">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Long_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Shetland Sheepdog</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Short_Coat_Length -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Short_Coat_Length">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Coat_Length"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Short Coat Length</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Siberian_Husky -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Siberian_Husky">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guard_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sled_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Therapy_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Siberian Husky</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Silver_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Silver_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Silver Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Small_Size -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Small_Size">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Size"/>
+        <name>Small Size</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Solid_Black_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Solid_Black_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Solid Black Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Solid_Sandy_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Solid_Sandy_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Solid Sandy Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Spotted_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Spotted_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Spotted Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Springer_Spaniel -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Springer_Spaniel">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Detective_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Springer Spaniel</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Staffordshire_Bull -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Staffordshire_Bull">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Blue_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Staffordshire Bull</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Active -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Active">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Active"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Standard Active</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Attacking -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Attacking">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Aggressive"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Standard Aggressive</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Clever -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Clever">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Clever"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Standard Clever</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Hearing_Skill -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Hearing_Skill">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Skill"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Standard Hearing Skill</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Modility -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Modility">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Standard Mobility</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Schnauzer -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Schnauzer">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Medical_response_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Mobility_Assistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Standard Schnauzer</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Sensitive_Nose -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Sensitive_Nose">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Skill"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Sensitive_Nose"/>
+        <name>Standard Sensitive Nose</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Standard_Strength -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Standard_Strength">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Characteristic"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Strength"/>
+        <name>Standard Strength</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Tan_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Tan_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Tan Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Tibetan_Mastiff -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Tibetan_Mastiff">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Draught_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Medium_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Tan_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Giant_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Tibetan Mastiff</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#TriColor -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#TriColor">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>TriColor</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Vizsla -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Vizsla">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Gold_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Vizsla</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Weimaraner -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Weimaraner">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Rescue_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Trackers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#High_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grey_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Silver_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Large_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>Weimaraner</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Welsh -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Welsh">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Grizzle_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Tan_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#Standard_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Welsh</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Welsh_Corgi -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Welsh_Corgi">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Asistance_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Carriag_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Guide_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hearing_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Herding_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#Standard_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Standard_Attacking"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Black_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Brown_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#TriColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#Standard_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Welsh Corgi</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Welsh_Springer_Spaniel -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Welsh_Springer_Spaniel">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Bird_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#High_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#BiColor"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#Red_Color"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#High_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Medium_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#Standard_Strength"/>
+        <name>Welsh Springer Spaniel</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#West_Highland_White -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#West_Highland_White">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Hound_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Terriers_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Working_Dog_Type"/>
+        <hasActive rdf:resource="http://localhost/Dogworking#High_Active"/>
+        <hasAggressive rdf:resource="http://localhost/Dogworking#Low_Aggressive"/>
+        <hasClever rdf:resource="http://localhost/Dogworking#Standard_Clever"/>
+        <hasCoat_Length rdf:resource="http://localhost/Dogworking#Short_Coat_Length"/>
+        <hasColor rdf:resource="http://localhost/Dogworking#White_Color"/>
+        <hasHearing_Skill rdf:resource="http://localhost/Dogworking#Standard_Hearing_Skill"/>
+        <hasMobility rdf:resource="http://localhost/Dogworking#High_Modility"/>
+        <hasSensitive_Nose rdf:resource="http://localhost/Dogworking#High_Sensitive_Nose"/>
+        <hasSize rdf:resource="http://localhost/Dogworking#Small_Size"/>
+        <hasStrength rdf:resource="http://localhost/Dogworking#High_Strength"/>
+        <name>West Highland White</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#White_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#White_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>White Color</name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://localhost/Dogworking#Yellow_Color -->
+
+    <owl:NamedIndividual rdf:about="http://localhost/Dogworking#Yellow_Color">
+        <rdf:type rdf:resource="http://localhost/Dogworking#Animal"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Appearance"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Color"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Dog"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#General_Pet"/>
+        <rdf:type rdf:resource="http://localhost/Dogworking#Pet"/>
+        <name>Yellow Color</name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
